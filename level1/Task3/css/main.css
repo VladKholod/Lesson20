@@ -1,0 +1,263 @@
+#wrapper{
+    width: 472px;
+}
+
+#header{
+    background: url(../img/bgnav.png) no-repeat;
+    
+    height: 41px;
+}
+
+#main{
+    background-color: #e9e9e9;
+    height: 332px;
+    margin-top: -1px;
+    margin-bottom: -2px
+}
+#main .left-side{
+    width: 120px;
+    float: left;
+    margin-left: 17px;
+    margin-top: 29px;
+}
+#main .left-side .label{
+    color: #505050;
+	display: block;
+    font: 13px "Arial", sans-serif;
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 9px;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+}
+#main .left-side .label:before{
+    background: url(../img/description.png);
+    width: 22px;
+    height: 21px;
+    top: -8px;
+    left: 0px;
+    content: "";
+    position: absolute;
+}
+#main .left-side .img-container{
+    border-radius: 7px;
+    border: 1px solid #8c969f;
+    height: 142px;
+    overflow: hidden;
+    position: relative;
+    width: 102px;
+}
+#main .left-side .load-btn{
+    width: 104px;
+    border-radius: 3px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+    background: #579bd0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #579bd0 0%, #2d5c95 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#579bd0), color-stop(100%,#2d5c95)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #579bd0 0%,#2d5c95 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #579bd0 0%,#2d5c95 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #579bd0 0%,#2d5c95 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #579bd0 0%,#2d5c95 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#579bd0', endColorstr='#2d5c95',GradientType=0 ); /* IE6-9 */
+    padding: 1px;
+    margin-top: 6px;
+}
+#main .left-side .load-btn .text{
+    background: #79b3e3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #79b3e3 0%, #568fd1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#79b3e3), color-stop(100%,#568fd1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #79b3e3 0%,#568fd1 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #79b3e3 0%,#568fd1 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #79b3e3 0%,#568fd1 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #79b3e3 0%,#568fd1 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79b3e3', endColorstr='#568fd1',GradientType=0 ); /* IE6-9 */
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+	border: none;
+}
+
+#main .right-side{
+    width: 335px;
+    height: 230px;
+    float:right;
+}
+#main #switch{
+    width: 60px;
+    height: 22px;
+    float: right;
+    margin-right: 18px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+#main #switch .left{
+    float: left;
+    background: #e4e9ed;
+    width: 29px;
+    height: 22px;
+    box-shadow: inset 1px 1px 3px #a5a5a5;
+}
+
+#main #switch .right{
+    background: url("../img/switch-separator.png");
+    float: right;
+    width: 29px;
+    height: 22px;
+    border: solid 1px #759ec1;
+}
+#main #switch img{
+    display: inherit;
+    width: 11px;
+    height: 11px;
+    margin: 5px auto;
+}
+#main #switch a{
+    line-height: 22px;
+    display: block;
+}
+#main .input-list{
+    margin-top: 54px;
+}
+
+#main .input-list input[type="text"],
+#main .input-list textarea {
+	border-radius: 5px;
+	border: 1px solid #8c969f;
+	box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	color: #a6acb2;
+	display: block;
+	font: 11px "Arial", sans-serif;
+	margin-top: 8px;
+	padding: 7px 9px;
+	width: 317px;
+}
+#main .input-list textarea {
+	height: 93px;
+	resize: none;
+}
+#main .input-list input[type="text"],
+#main .input-list textarea{
+	color: #a6acb2;
+	font: 11px/13px "Arial", sans-serif;
+}
+
+#main .bottom-side{
+    clear: both;
+    margin-top: 9px;
+    width: 100%;
+    height: 100px;
+}
+#main .bottom-side textarea{
+    height: 99px;
+    border-radius: 5px;
+	border: 1px solid #8c969f;
+	box-shadow: inset 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	color: #a6acb2;
+	display: block;
+	font: 11px "Arial", sans-serif;
+	margin-top: 8px;
+    margin-left: 17px;
+	padding: 7px 9px;
+	width: 437px;
+    resize: none;
+}
+
+#footer{
+    background-color: #e9e9e9;
+    height: 51px;
+    border-radius: 3px;
+}
+#footer .next{
+    float: right;
+    margin-top: 12px;
+    margin-right: 17px;
+}
+#footer .next a{
+    background: url("../img/btn-arrow.png") no-repeat;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font: 12px "Arial", sans-serif;
+    height: 23px;
+    width: 85px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.nav{
+    overflow: hidden;
+    font: 13px "Arial", sans-serif;
+    list-style: none;
+    margin: 0px;
+}
+.nav li{
+    float: left;
+    position: relative;
+}
+.nav li:before{
+    position: absolute;
+    content: "";
+}
+.nav li a{
+    display: block;
+    height: 29px;
+    color: #1b4680;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.nav .active{
+    font-size: 14px;
+}
+.nav .active a{
+    color: #ffffff;
+}
+.nav .description a{
+    padding-left: 32px;
+    padding-right: 13px;
+    margin-left: -39px;
+}
+.nav .description:before{
+    background: url(../img/description.png);
+    width: 22px;
+    height: 21px;
+    top: 9px;
+    left: -33px;
+}
+.nav .ingredients a{
+    padding-left: 27px;
+    padding-right: 16px;
+}
+.nav .ingredients:before{
+    background: url(../img/ingredients.png);
+    width: 17px;
+    height: 25px;
+    top: 6px;
+    left: 9px;
+}
+.nav .parameters a{
+    padding-left: 49px;
+    padding-right: 12px;
+}
+.nav .parameters:before{
+    background: url(../img/parameters.png);
+    width: 34px;
+    height: 26px;
+    top: 5px;
+    left: 7px;
+}
+.nav .wineglasses a{
+    padding-left: 31px;
+    padding-right: 28px;
+}
+.nav .wineglasses:before{
+    background: url(../img/wineglasses.png);
+    width: 13px;
+    height: 26px;
+    top: 5px;
+    left: 12px;
+}

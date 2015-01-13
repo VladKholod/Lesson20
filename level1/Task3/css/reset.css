@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #ffffff;
+    
+    font: 10px/12px "Verdana", "Arial", sans-serif;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    width: 770px;
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+#wrapper{
+    overflow: hidden;
+}
